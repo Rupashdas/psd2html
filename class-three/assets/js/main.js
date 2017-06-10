@@ -20,6 +20,10 @@
 			loop: true,
 			dots: true,
 			nav: false,
+			autoplay: true,
+			addClassActive: true,
+			animateOut: 'slideOutDown',
+			animateIn: 'rollIn',
 		});
 
 
