@@ -1,0 +1,121 @@
+
+.slide-bg-1 {
+    background-image: url("../img/slide-bg-1.jpg");
+}
+.slide-bg-2 {
+    background-image: url("../img/slide-bg-2.jpg");
+}
+.slide-bg-3 {
+    background-image: url("../img/slide-bg-3.jpg");
+}
+.slide-bg-4 {
+    background-image: url("../img/slide-bg-4.jpg");
+}
+.slide-bg-5 {
+    background-image: url("../img/slide-bg-5.jpg");
+}
+.single-slide-item::after {
+    background: rgba(0, 0, 0, 0) linear-gradient(45deg, #1d62f0 0%, #1ad8fd 100%) repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+html, body {
+    height: 100%;
+}
+.single-slide-item {
+    background-position: center center;
+    background-size: cover;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.slide-item-wrapper {
+    color: #fff;
+    display: table-cell;
+    font-weight: 300;
+    line-height: 1.8;
+    text-align: center;
+    vertical-align: middle;
+}
+.slide-item-wrapper h2 {
+    color: #fff;
+    font-size: 65px;
+    line-height: 75px;
+}
+.video-play-btn {
+    background: #24d5a1 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 22px;
+    height: 65px;
+    line-height: 65px;
+    margin-top: 28px;
+    padding-left: 4px;
+    width: 65px;
+}
+.homepage-slides, .homepage-slides div {
+    height: 100%;
+}
+.homepage-slides div.slide-item-wrapper, .slide-item-wrapper div, .homepage-slides div.owl-controls, .owl-controls div {
+    height: auto;
+}
+.owl-dots div {
+    height: 4px;
+}
+.owl-controls .owl-dots {
+    bottom: 0;
+    left: 50%;
+    margin: 10px;
+    position: absolute;
+    top: auto;
+    transform: translateX(-50%);
+}
+.owl-dots div.active {
+    background-color: #24d5a1;
+    transform: translateY(-100%);
+    width: 20px;
+}
+.owl-controls .owl-nav div {
+    color: #fff;
+    font-size: 30px;
+    left: 50px;
+    opacity: 0.5;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.2s ease 0s;
+}
+.owl-controls .owl-nav div.owl-next {
+    left: auto;
+    right: 50px;
+}
+.owl-controls .owl-nav div:hover {
+    opacity: 1;
+}
+.header-area.header-absolute {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+.header-absolute .main-menu li a {
+    color: #fff;
+}
+.header-absolute .main-menu li a:hover{
+    color: #24D6A4;
+}
+
+
+
+
+
