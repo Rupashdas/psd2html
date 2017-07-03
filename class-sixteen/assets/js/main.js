@@ -69,9 +69,8 @@
 
 
         $(".fixed-links-trigger").on('click', function(){
-            $(".pages-links").addClass("show-linked");
+            $(".pages-links").toggleClass("show-linked");
             return false;
-            $(".pages-links").removeClass("show-linked");
         });
 
 

@@ -126,6 +126,9 @@ input[type="submit"], button[type="submit"] {
 .padding-top-80{
     padding-top: 80px;
 }
+.padding-bottom-50{
+    padding-bottom: 50px;
+}
 
 .video-play-btn {
     background: #24d5a1 none repeat scroll 0 0;
@@ -825,6 +828,18 @@ Case Study CSS
     font-weight: 700;
 }
 
+.box-case-study{
+    margin: -15px  0;
+    
+}
+.single-case-study{
+    height: 300px;
+    margin: 15px 0;
+}
+
+.case-study-box-style2{
+    margin: 25px 0;
+}
 
 /* ===============
 Owl Carousel CSS 
@@ -980,14 +995,16 @@ Call to action CSS
 .cta-area {
     background: #f8f8f8 none repeat scroll 0 0;
     padding: 60px 0;
+    color: #fff;
 }
 .cta-area h2 {
     margin: 0;
     padding-top: 8px;
+    color: #fff;
 }
 .cta-area.theme-4{background-image: url(../img/cta-bg-2.jpg)}
 .cta-area.theme-5 {background-image: url(../img/cta-bg-3.jpg)}
-.cta-area.theme-4, .cta-area.theme-5, .cta-area.theme-6, .breadcroumb-area{
+.cta-area.theme-4, .cta-area.theme-5, .cta-area.theme-6, .cta-area.theme-7, .breadcroumb-area{
     background-size: cover;
     background-position: center;
     position: relative;
@@ -998,7 +1015,7 @@ Call to action CSS
 .cta-area.theme-4, .cta-area.theme-5, .breadcroumb-area h2{
     color: #fff;
 }
-.cta-area.theme-5:after, .cta-area.theme-4:after, .cta-area.theme-6:after, .breadcroumb-area:after {
+.cta-area.theme-5:after, .cta-area.theme-4:after, .cta-area.theme-6:after, .cta-area.theme-7:after, .breadcroumb-area:after {
     content: "";
     height: 100%;
     left: 0;
@@ -1007,7 +1024,7 @@ Call to action CSS
     width: 100%;
     z-index: -1;
 }
-.cta-area.theme-5:after, .breadcroumb-area:after, .cta-area.theme-6:after{
+.cta-area.theme-5:after, .breadcroumb-area:after, .cta-area.theme-6:after, .cta-area.theme-7:after{
     background-color: #073b4c;
     opacity: 0.62;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=62)";
@@ -1090,44 +1107,21 @@ Call to action CSS
     padding: 12px 41px;
 }
 
-
+.cta-area.theme-6 h2, .cta-area.theme-6{
+    color: #fff;
+}
 
 /* ===============
 pricing CSS 
 ===================*/
 
-.single-pricing-box {
-    border: 1px solid #f8f8f8;
-    margin-bottom: 30px;
-    padding: 70px;
-    text-align: center;
-}
-.pricing-content {
-    font-size: 17px;
-    line-height: 45px;
-}
-.pricing-heading {
-    border-bottom: 1px solid #f8f8f8;
-    color: #999;
-    font-size: 14px;
-    font-weight: 300;
-}
+
 .pricing-heading h4 {
     color: #373737;
     font-size: 20px;
     font-weight: 300;
 }
-.pricing-heading .pricing-count {
-    color: #ef476f;
-    font-size: 50px;
-}
 
-.single-pricing-box {
-    border: 1px solid #f8f8f8;
-    margin-bottom: 30px;
-    padding: 70px;
-    text-align: center;
-}
 .pricing-content {
     font-size: 17px;
     line-height: 45px;
@@ -1140,21 +1134,12 @@ pricing CSS
     margin-bottom: 15px;
     padding-bottom: 30px;
 }
-.pricing-heading h4 {
-    color: #373737;
-    font-size: 20px;
-    font-weight: 300;
-}
-.pricing-heading .pricing-count {
+.pricing-count {
     color: #ef476f;
     font-size: 50px;
     line-height: 60px;
 }
-.pricing-content ul {
-    list-style: outside none none;
-    margin: 0 0 30px;
-    padding: 0;
-}
+
 
 .single-pricing-box {
     border: 1px solid #f8f8f8;
@@ -1178,16 +1163,8 @@ pricing CSS
     -webkit-transition: all 0.25s ease 0s;
     transition: all 0.25s ease 0s;
 }
-.pricing-heading h4 {
-    color: #373737;
-    font-size: 20px;
-    font-weight: 300;
-}
-.pricing-heading .pricing-count {
-    color: #ef476f;
-    font-size: 50px;
-    line-height: 60px;
-}
+
+
 .pricing-content ul {
     list-style: outside none none;
     margin: 0 0 30px;

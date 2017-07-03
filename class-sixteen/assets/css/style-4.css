@@ -73,5 +73,60 @@ h1, h2, h3, h4, h5, h6 {
     color: #45BD98;
 }
 
-
-
+.breadcroumb-bg-1{background-image: url(../img/breadcoum-service-details.jpg)}
+.breadcroumb-bg-2{background-image: url(../img/service-details-img-2.jpg)}
+.case-study-carousel .owl-dots div.active {
+  background: #06d6a0 none repeat scroll 0 0 !important;
+}
+.single-pricing-box:hover, .single-pricing-box:hover .pricing-heading{
+    border-color: #45BD98;
+}
+.pricing-count{
+    color: #45BD98;
+}
+.cta-area.theme-6{
+    background-image: url(../img/cta-bg-3.jpg)
+}
+.cta-area.theme-7{
+    background-image: url(../img/service-details-ctajpg.jpg)
+}
+.fixed-bar a {
+    font-weight: 400;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    color: #fff;
+}
+.fixed-bar {
+    background: #45bd98;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    transition: .3s;
+    animation-name: pages;
+    animation-iteration-count: infinite;
+    animation-duration: .5s;
+    animation-timing-function: linear;
+}
+.fixed-bar:hover{
+    opacity: 1;
+    background: #63838E;
+    animation: none;
+}
+.fixed-bar span {
+    color: #F6D92F;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+@keyframes pages{
+   0%{
+        opacity: .4;
+    }
+   50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: .4;
+    }
+}
