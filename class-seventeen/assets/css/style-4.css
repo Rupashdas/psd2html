@@ -1,0 +1,134 @@
+
+html, body, .homepage-hero-area-4, .single-slide-item {
+    height: 100%;
+}
+body {
+    line-height: 1.6;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+.slide-item-wrapper h2 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.website-check-form {
+    margin-top: 30px;
+}
+.website-check-form input {
+    background: #073b4c none repeat scroll 0 0;
+    border-color: #073b4c;
+}
+.boxed-btn, input[type="submit"], button[type="submit"] {
+    background: #06d6a0 none repeat scroll 0 0;
+}
+
+.section-padding .padding-top-80 > h3 {
+    font-size: 26px;
+    margin-bottom: 60px;
+}
+
+.service-box-2 {
+    margin-bottom: 50px;
+    min-height: 200px;
+}
+.service-icon {
+    color: #06d6a0;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.video-play-btn {
+    background: #06d6a0 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 35px;    
+    line-height: 65px;
+    line-height: 70px;
+    margin-top: 20px;
+    padding-left: 5px;
+    position: relative;
+    width: 70px;
+}
+
+.video-play-btn:active{
+    background: red;
+}
+.video-play-btn img {
+    display: inline-block;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.single-service-box:hover {
+    border-color: #45BD98;
+}
+.single-service-box:hover a.service-readmore-btn, .single-service-box:hover h3, .single-service-box:hover .service-icon {
+    color: #45BD98;
+}
+
+.breadcroumb-bg-1{background-image: url(../img/breadcoum-service-details.jpg)}
+.breadcroumb-bg-1.theme-8{background-image: url(../img/case-details-breadcroumb.jpg)}
+.breadcroumb-bg-2{background-image: url(../img/service-details-img-2.jpg)}
+.case-study-carousel .owl-dots div.active {
+    background: #06d6a0 none repeat scroll 0 0 !important;
+}
+.single-pricing-box:hover, .single-pricing-box:hover .pricing-heading{
+    border-color: #45BD98;
+}
+.pricing-count{
+    color: #45BD98;
+}
+.cta-area.theme-6{
+    background-image: url(../img/cta-bg-3.jpg)
+}
+.cta-area.theme-8{
+    background-image: url(../img/case-details-cta.jpg)
+}
+.cta-area.theme-7{
+    background-image: url(../img/service-details-ctajpg.jpg)
+}
+.fixed-bar a {
+    font-weight: 400;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    color: #fff;
+}
+.fixed-bar {
+    background: none;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+.fixed-bar a:hover{
+    background: #1F9CD2;
+    animation: none;
+}
+.fixed-bar span {
+    color: #F6D92F;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.fixed-bar a {
+    background: #EF486F none repeat scroll 0 0;
+    display: block;
+    margin-top: 6px;
+    transition: .3s;
+}
+.fixed-bar a:first-child {
+    margin: 0;
+}
+
+.shadow-img {
+  height: 504px;
+}
+
