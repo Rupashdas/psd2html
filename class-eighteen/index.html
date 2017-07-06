@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Class Eighteen</title>
+        <style>
+
+            #pages ol {
+                margin: 0;
+                padding: 0;
+                text-align: center;
+            }
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+                text-align: center;
+            }
+            ul li a {
+                font-size: 32px;
+                text-decoration: none;
+                color: #333;
+                display: inline;
+            }
+            ul li {
+                display: inline;
+            }
+            ul li::after {
+                content: "-";
+                font-size: 34px;
+                display: inline-block;
+                padding: 0 20px;
+            }
+            ul li:last-child::after {
+                content: "";
+            }
+            #pages {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+            }
+            ul li a:hover {
+                color: #4C9ED9;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="pages">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="faq.html">Faq</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
