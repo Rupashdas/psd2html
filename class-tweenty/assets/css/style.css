@@ -1,0 +1,181 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.mainmenu ul {
+    background: #4862a3 none repeat scroll 0 0;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0 0 0 70px;
+    text-align: left;
+}
+.mainmenu ul li {
+    display: inline-block;
+    position: relative;
+}
+.mainmenu ul li a {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.mainmenu ul li a:hover {
+    background: #3e5899 none repeat scroll 0 0;
+}
+.mainmenu ul li ul {
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    text-align: left;
+    top: -24px;
+    transform: scaleY(0.4);
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 200px;
+    z-index: 2;
+}
+.mainmenu ul li:hover ul {
+    opacity: 1;
+    top: 52px;
+    transform: scale(1);
+    visibility: visible;
+}
+.mainmenu ul li ul li {
+    display: block;
+}
+.mainmenu ul li ul li a {
+    border: medium none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-transform: none;
+}
+.mainmenu ul li:hover ul ul {
+    opacity: 1;
+    top: -63px;
+    transform: scaleY(0.5);
+    visibility: hidden;
+}
+.mainmenu ul ul li ul {
+    left: 200px;
+}
+.mainmenu ul ul li:hover > ul {
+    left: 200px;
+    opacity: 1;
+    top: 0;
+    transform: scaleY(1);
+    visibility: visible;
+}
+
+a:hover { text-decoration: none }
+.section-padding {
+    padding: 80px 0;
+}
+.section-borders span {
+    background: #70ab0b none repeat scroll 0 0;
+    border-radius: 2px;
+    display: inline-block;
+    height: 5px;
+    width: 50px;
+}
+.section-borders span.black-border {
+    background: #333 none repeat scroll 0 0;
+    margin: 0 5px;
+    width: 30px;
+}
+.section-title h2 {
+    font-size: 35px;
+}
+.section-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.client-testimonial-slider .owl-dots div {
+    background: #70ab0b none repeat scroll 0 0;
+    display: inline-block;
+    height: 5px;
+    margin: 5px;
+    transition: all 0.2s ease 0s;
+    width: 20px;
+}
+.client-testimonial-slider .owl-dots div.active {
+    background: #333 none repeat scroll 0 0;
+    width: 30px;
+}
+.client-testimonial-slider .owl-dots {
+    margin-top: 28px;
+    text-align: center;
+}
+.single-testimonial-item {
+    box-shadow: 0 0 2px #dadfd3;
+    color: #919191;
+    margin: 2px;
+    padding: 15px 15px 15px 80px;
+    position: relative;
+}
+.single-testimonial-item::after {
+    background: #eef1ec none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 78%;
+    left: 60px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+}
+.single-testimonial-item::before {
+    color: #70ab0b;
+    content: "";
+    font-family: fontAwesome;
+    font-size: 20px;
+    left: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.single-testimonial-item h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.single-testimonial-item h3 span {
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+.single-testimonial-item p {
+    font-style: italic;
+}
