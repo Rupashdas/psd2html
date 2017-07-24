@@ -12,8 +12,9 @@
             items: 1,
             loop: true,
             dots: false,
-            autoplay: false,
+            autoplay: true,
             nav: true,
+            smartSpeed: 2000,
             navText: ["<i class='zmdi zmdi-arrow-left'></i>", "<i class='zmdi zmdi-arrow-right'></i>"]
         });
         $(".logo-carousel").owlCarousel({
@@ -60,9 +61,7 @@
             $(this).addClass("active");
         });
 
-        $(".search-trigger").on('click', function () {
-            $(".off-canvas-menu-overlay").addClass("active");
-        });
+
 
 
         $(".video-play-btn").magnificPopup({
