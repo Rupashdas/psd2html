@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Quickstart pack</title>
+
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/responsive.css" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <div class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">                    
+                        <div id="googleMap" style="height: 500px; width: 100%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+            function myMap() {
+                var location = {lat: 22.2749931, lng: 91.8016337};
+                var mapProp= {
+                    center:new google.maps.LatLng(23.758063,90.3844153),
+                    zoom: 15,
+                    scrollwheel: false,
+                    styles:[
+                        {elementType: 'geometry', stylers: [{color: '#F6F5F2'}]},
+                        {
+                            featureType: 'road',
+                            elementType: 'geometry',
+                            stylers: [{color: '#eeeeee'}]
+                        },
+                        {
+                            featureType: 'road.highway',
+                            elementType: 'geometry',
+                            stylers: [{color: '#ffffff'}]
+                        },
+                        {
+                            featureType: 'water',
+                            elementType: 'geometry',
+                            stylers: [{color: '#e2d9d9'}]
+                        },
+                        {
+                            featureType: 'transit',
+                            elementType: 'geometry',
+                            stylers: [{color: '#d62261'}]
+                        },
+                        {
+                            featureType: 'poi.park',
+                            elementType: 'geometry',
+                            stylers: [{color: '#88cdd6'}]
+                        },
+
+                    ],
+                };
+
+                var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            }
+
+        </script>
+
+
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAINFvGlrKp8y8XI4gBdUXKNke0cm8k8SY&callback=myMap" async defer></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
