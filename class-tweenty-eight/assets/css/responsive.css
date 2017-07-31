@@ -1,0 +1,316 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .main-menu ul li a{
+		font-size: 14px;
+	}
+    
+    .section-padding {
+        padding: 80px 0;
+    }
+    .boxed-btn, input[type="submit"], button[type="submit"] {
+        font-size: 13px;
+        padding: 13px 8px;
+    }
+    .single-service-box {
+        padding: 15px;
+    }
+    .cta-area h2 {
+        padding-top: 25px;
+        font-size: 28px;
+    }
+    .pricing-content {
+        line-height: 35px;
+    }
+    .footer-area ul.social-links li{
+        width: 46%;
+    }
+    .hero-area h1 {
+        font-size: 40px;
+    }
+    .single-service-box-2 {
+        height: 220px;
+    }
+    .slide-item-wrapper h2 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .padding-top-80 {
+        padding-top: 30px;
+    }
+    .theme-2 .single-case-study {
+        height: 200px;
+    }
+    .blog-thum-wrapper {
+        margin: -20px -20px 30px;
+        height: 220px;
+
+    }
+    a.single-blog-box {
+        min-height: 502px;
+        padding: 20px;
+    }
+    .service-section::before {
+        top: -35px;
+    }
+    .traffic-faq .panel-heading a {
+        font-size: 12px;
+    }
+
+}
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+
+
+
+}
+
+
+/* Tablet & Mobile Layout: 991px. */
+@media only screen and (max-width: 991px) {
+    .responsive-checker-form{
+        display: none;
+    }
+    .slicknav_menu{
+        display: block;
+    }
+    .logo {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .main-menu {
+        display: none;
+    }
+
+    .header-area .text-right, .cta-area .text-right, .cta-area, .footer-area-2, .footer-area-2 .social-links,  .footer-area-3 .social-links, .copyright-area-2, .footer-area-3, .copyright-area-2 .text-right {
+        text-align: center;
+    }
+    .hero-area h1 {
+        font-size: 29px;
+        max-width: inherit;
+        text-align: center;
+    }
+
+    .website-anaylitics-form {
+        margin-bottom: 30px;
+    }
+    .section-padding {
+        padding: 70px 0;
+    }
+    .hero-area {
+        padding: 70px 0;
+    }
+    .mobile-padding-fix{
+        padding-top: 50px;
+    }
+    .section-title {
+        margin-bottom: 50px;
+    }
+
+    .single-testimonial-item .testimonial-content p {
+        font-size: 80%;
+        font-weight: 300;
+    }
+    .cta-quote {
+        text-align: center;
+    }
+    .mobile-only-margin {
+        height: 50px;
+    }
+    .email-subscribe-form input[type="submit"] {
+        width: 170px;
+    }
+
+    .single-service-box-2 {
+        margin-top: 30px;
+    }
+    .case-study-box-preview {
+        height: 200px;
+    }
+    .case-study-link-tablecell::after {
+        min-height: inherit;
+    }
+    .single-pricing-box.theme-2 {
+        margin-bottom: 24px;
+    }
+    .section-padding.padding-top-0{
+        padding-top: 0;
+    }
+    .single-blog-box {
+        min-height: inherit;
+        margin-top: 15px;
+    }
+    .slide-item-wrapper h2 {
+        font-size: 45px;
+        line-height: 40px;
+    }
+    .website-check-form {
+        transform: translateY(-25px);
+    }
+    .single-service-box {
+        margin-bottom: 20px;
+    }
+    .copyright-area-2 ul {
+        padding-top: 10px
+    }
+
+    .col-md-6.text-center ul {
+        margin-top: 12px;
+    }
+    .tile-gallary img.absolute-gallary-1 {
+        position: inherit;
+        top: 0;
+    }
+    .tile-gallary.text-right {
+        text-align: center;
+    }
+    .service-section::before {
+        top: 0;
+        width: 100%;
+        z-index: -2;
+        display: none;
+    }
+    .service-section::after {
+        width: 100%;
+    }
+    .section-padding.service-section {
+        padding-bottom: 0;
+    }
+    .slide-item-wrapper h2 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .testimonial-conten::after {
+        bottom: 1px;
+        height: 13px;
+        left: 13px;
+    }
+
+    .single-footer-widgets .email-subscribe input[type="email"], .single-footer-widgets .email-subscribe input[type="submit"] {
+        width: 100%;
+    }
+    .single-footer-widgets .email-subscribe input[type="submit"] {
+        width: 100%;
+        margin-top: 12px;
+    }
+
+    .breadcroumb-area {
+        padding: 78px 0;
+    }
+    .mobile-height-fix{
+        height: 0;
+    }
+    .height-50{
+        height: 50px;
+    }
+    .cta-area h2 {
+        margin-bottom: 0;
+    }
+    .center-content{
+        display: block;
+        text-align: center;
+    }
+    .col-md-6.text-right.center-content{
+        margin-top: 30px;
+    }
+    .pricing-content {
+
+        line-height: 36px;
+    }
+    .pricing-count {
+        font-size: 44px;
+        line-height: 52px;
+    }
+    .col-md-4.col-sm-12:last-child a.single-blog-box{
+        min-height: inherit;
+    }
+    .panel-group.traffic-faq {
+        margin-bottom: 55px;
+        margin-top: 15px;
+    }
+    .col-md-6:last-child .panel-group.traffic-faq{
+        margin-bottom: 0;
+    }
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+
+    .section-padding, .hero-area {
+        padding: 50px 0;
+    }
+    .footer-area ul {
+        margin-bottom: 50px;
+    }
+    .email-subscribe-form input[type="submit"], .email-subscribe-form input[type="email"]  {
+        width: 100%;
+    }
+    .footer-area .col-sm-4:last-child ul {
+        margin-bottom: 0;
+    }
+    a.col-md-3.col-sm-6 {
+        display: block;
+    }
+    .website-check-form input, .website-check-form input[type="submit"] {
+        margin: 2% 15px;
+        width: 91%;
+    }
+    .single-blog-box {
+        padding: 20px;
+    }
+    .blog-thum-wrapper {
+        margin: -20px -20px 30px;
+    }
+    .service-section {
+        margin-top: 0;
+    }
+    .team-members-box img {
+        width: 60%;
+    }
+    .team-members-box {
+        text-align: center;
+    }
+    .cta-area h2 {
+        font-size: 25px;
+    }
+    .footer-area.theme-5, .footer-area.theme-2{
+        padding-bottom: 0;
+    }
+    .slide-item-wrapper h2 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .slide-item-wrapper {
+        padding-top: 160px;
+    }
+    .footer-area-3 ul li {
+        display: block;
+    }
+    .case-study-box-style2 {
+        margin: 50px 0;
+    }
+    .shadow-img.small-size {
+        margin-top: 20px;
+    }
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+    .footer-area-3 ul li {
+        display: inline-block;
+    }
+	
+
+
+}
+@media only screen and (max-width: 479px) { 
+	.website-anaylitics-form input[type="submit"] {
+		margin-top: 10px;
+	}
+	input[type="text"], input[type="email"], input[type="url"], input[type="tel"], input[type="password"], textarea, input[type="submit"], button[type="submit"] {
+		width: 100%;
+	}
+}
