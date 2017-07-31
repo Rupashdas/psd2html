@@ -1862,14 +1862,16 @@ img.footer-logo {
     position: absolute;
     box-shadow: 0 0 14px #ddd;
     padding: 10px;
-    top: 15px;
     background: #fff;
     z-index: 2;
     color: #333;
-    left: 82px;
+	top: 110px;
+    left: 0;
     border: 1px solid #EF476F;
 }
-
+.responsive-checker-form {
+       
+    }
 .responsive-checker-form div {
     color: #333;
     font-size: 16px;
