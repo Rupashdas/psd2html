@@ -1865,8 +1865,8 @@ img.footer-logo {
     background: #fff;
     z-index: 2;
     color: #333;
-	top: 110px;
-    left: 0;
+    top: 110px;
+    left: 15px;
     border: 1px solid #EF476F;
 }
 .responsive-checker-form {
