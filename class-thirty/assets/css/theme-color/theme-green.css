@@ -1,0 +1,17 @@
+/* =============== Color CSS  =================== */
+ .boxed-btn,
+.boxed-btn, input[type="submit"], button[type="submit"], .slicknav_btn, .case-study-wrapper, 
+.homepage1 .main-menu li:hover li:hover > a , .main-menu li:hover li:hover> a, .testimonial-carousel .owl-dots div.active, .owl-dots div.active, body.boxed-layout, .case-study-link-tablecell a.boxed-btn  {     
+        background-color:#2ecc71;
+} 
+
+.footer-area ul
+li a:hover, .slicknav_menu .slicknav_nav a:hover, .slicknav_menu
+.slicknav_item.slicknav_row:hover, .header-area.homepage1 .main-menu ul li:hover> a, .pricing-count, .single-service-box:hover a.service-readmore-btn, 
+.single-service-box:hover h3, .single-service-box:hover .service-icon, 
+.footer-area.theme-5 ul li:hover > a, .header-area .main-menu ul li:hover > a , .homepage1 .menu-cta h4 span, .menu-cta h4 span, .service-icon, .blog-readmore-btn, .footer-area.theme-2 ul li a:hover{     
+    color: #2ecc71 ;
+}
+.single-service-box:hover, .single-pricing-box:hover, .single-pricing-box:hover .pricing-heading{     
+    border-color: #2ecc71 ;
+    }
