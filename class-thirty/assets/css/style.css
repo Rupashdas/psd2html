@@ -1975,5 +1975,5 @@ body.boxed-layout {
     max-width: 1170px;
     margin: 30px auto;
     background: #fff;
-    overflow: hidden;
+    height: 100%;
 }
